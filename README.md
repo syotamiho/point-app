@@ -12,7 +12,7 @@
 | --------------------- | ----------------- | ------------------------------ |
 | card_name             | string            | null: false                    |
 | category_id           | integer           | null: false                    |
-| shop                  | text              | null: false                    |
+| shop                  | string            |                                |
 | expiration            | date              | null: false                    |
 | user                  | references        | null: false, foreign_key: true |
 ### Association
